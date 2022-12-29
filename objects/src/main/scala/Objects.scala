@@ -1,0 +1,3 @@
+object Objects extends App{
+
+}
