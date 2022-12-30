@@ -1,4 +1,12 @@
-object Objects extends App{
+object Objects{
+
+  def main(args: Array[String]): Unit = {
+    println(Person.N_EYES)
+    println(Person.canFly)
+
+    val robert = new Person("Robert")
+    println(robert.name)
+  }
 
   object Person {
     val N_EYES = 2
@@ -8,9 +16,4 @@ object Objects extends App{
 
   }
 
-  println(Person.N_EYES)
-  println(Person.canFly)
-
-  val robert = new Person("Robert")
-  println(robert.name)
 }
